@@ -4,14 +4,6 @@ import App from './App.tsx'
 import './index.css'
 
 import WebApp from '@twa-dev/sdk'
-//
-// declare global {
-//     interface Window {
-//         Telegram: {
-//             WebApp: any
-//         }
-//     }
-// }
 
 WebApp.ready();
 WebApp.setHeaderColor('bg_color')
