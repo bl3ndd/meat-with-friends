@@ -24,4 +24,5 @@
 .friendCard {
     display: flex;
     column-gap: 10px;
+    color: var(--tg-theme-text_color);
 }
