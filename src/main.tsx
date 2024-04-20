@@ -5,6 +5,14 @@ import './index.css'
 
 // import WebApp from '@twa-dev/sdk'
 
+declare global {
+    interface Window {
+        Telegram: {
+            WebApp: any
+        }
+    }
+}
+
 window.Telegram.WebApp.ready();
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
